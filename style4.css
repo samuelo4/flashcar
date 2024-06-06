@@ -1,0 +1,107 @@
+
+.heroBg>h1{
+    font-size: 1rem;
+}
+
+
+.cardId {
+    width: 100%;
+    margin-inline: 0;
+}
+
+.cardId>img {
+    top: -50px;
+    height: 80px;
+    width: 80px;
+}
+
+.clientLayout {
+    height: auto;
+}
+
+.navWrapper>h1{
+font-size: 2rem;
+margin-left: 2rem;
+
+}
+label{
+display: block;
+font-size: 2rem;
+margin-right: 2rem;
+}
+.navRight{
+    position: absolute;
+    width: 80%;
+    padding: 1.8rem;
+    top: 4rem;
+    right: 3px;
+    z-index: 1;
+    background-color: #fdfbf8;
+    opacity: 0.97;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    
+}   
+ .navItems{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navItems>a{
+    width: 100%;
+    color: #094c3b;
+    font-size: 18px;
+    padding: 0.6rem;
+    text-align: right;
+    border-bottom: 4px solid #fff;
+}
+
+#toggle:checked + .navRight{
+        display: block;
+        transform: none;
+}
+.secOne{
+    flex-direction: column;
+}
+
+.heroImg{
+    display: none;
+}
+
+.secTwo>h1{
+    width: 300px;
+}
+.tarriffsWrapper{
+    margin-block: 8rem;
+    width: 400px;
+    flex-direction: column;
+    gap: 6rem;
+}
+.tariffCard{
+    width: 100%;
+    height: 300px;
+}
+
+.tariffCard>img{
+    margin-left: 6rem;
+}
+.tarriffContent>h3{
+    font-size: 22px;
+}
+.tarriffContent>p{
+    font-size: 16px;
+    width: 250px;
+}
+.tarriffContent>h5{
+    font-size: 18px;
+}
+.btnTariff>button{
+    padding-block: .5rem;
+    font-size: 12px;
+}
+
+
+
